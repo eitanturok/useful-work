@@ -53,6 +53,6 @@ Instead of solving arbitrary cryptographic puzzles, the network validates transa
 
 ## Contributing
 
-Contributions welcome! This is an experimental implementation of cutting-edge research. Feel free to open issues or submit PRs.
+This is an experimental implementation of cutting-edge research. I will not be accepting contributions as this is a standalone implementation.
 
 ## License
