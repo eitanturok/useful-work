@@ -1,12 +1,12 @@
 # ⛏️ Mining Crypto While Training AI
 
-Turn your matrix multiplications into cryptocurrency rewards—at zero extra cost.
+Turn your matrix multiplications into cryptocurrency at zero extra cost.
 
 ## What Is This?
 
 When training neural networks, your GPU spends most of its time doing matrix multiplication (matmul). Traditionally, cryptocurrency mining secures blockchain networks through computationally expensive but fundamentally useless hash checking. This project implements a breakthrough that changes everything.
 
-Based on the paper [*Proofs of Useful Work from Arbitrary Matrix Multiplication*](https://arxiv.org/abs/2504.09971), this repository demonstrates how **the same matmul operations used in AI training can simultaneously mine cryptocurrency**—securing blockchain networks with genuinely useful computation.
+Based on the paper [*Proofs of Useful Work from Arbitrary Matrix Multiplication*](https://arxiv.org/abs/2504.09971), this repository demonstrates how **the same matmul operations used in AI training can simultaneously mine cryptocurrency**, securing blockchain networks with genuinely useful computation.
 
 ## Why This Matters
 
@@ -25,10 +25,10 @@ The core algorithm is implemented in `main.ipynb`. The notebook demonstrates how
 ## Getting Started
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone https://github.com/eitanturok/useful-work.git
 
 # Install dependencies
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 
 # Open the notebook
 jupyter notebook main.ipynb
